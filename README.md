@@ -11,4 +11,5 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 
 ## License
 
-We are still deciding on the license. It will be either a MIT or GNU GPLv3.0
+We are still deciding on the license.
+There is a temporary [LICENSE](./LICENSE) and [COPYING](./COPYING) created.
