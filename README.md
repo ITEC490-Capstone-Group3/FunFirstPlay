@@ -97,4 +97,4 @@ This folder will include the database code.
 
 ## License
 
-This project is licensed under the [GNU GPLv3](./COPYING) our license.
+This project is licensed under the [GNU GPLv3](./COPYING) or later.
