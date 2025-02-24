@@ -9,7 +9,28 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 - @joseluisubandaphotography
 - @tpope19
 
+## Project Folder Structure
+
+### Root - FunFirstPlay
+
+This is the root of the repo, it will include our [README](README.md), [License](./COPYING), and any other files that are relevant to the whole project.
+
+### Licenses
+
+This folder will include all the licenses used within the project.
+
+### Frontend
+
+This folder will include the frontend code. This will include the website source code.
+
+### Backend
+
+This folder will include backend code.
+
+### Database
+
+This folder will include the database code.
+
 ## License
 
-We are still deciding on the license.
-There is a temporary [LICENSE](./LICENSE) and [COPYING](./COPYING) created.
+This project is licensed under the [GNU GPLv3](./COPYING) our license.
