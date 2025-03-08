@@ -1,6 +1,6 @@
 # FunFirstPlay
 
-This project is out Capstone project for the School of Professional Studies at the University of Kansas.
+This project is our Capstone project for the School of Professional Studies at the University of Kansas.
 
 FunFirstPlay is a responsive web application that brings together sports enthusiasts for local meetups and activities. The platform connects people who want to play casually, learn new sports, and just have fun. Whether you're looking to shoot hoops, learn tennis, or find a soccer match, FunFirstPlay makes it easy to find like-minded players through customizable profiles where users can specify their preferred time slots, sports interests, and skill levels. The platform emphasizes fun and inclusivity, creating an open network where anyone can discover sports partners, and learn new activities.
 
@@ -8,7 +8,7 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 
 - @ARzi-KU
 - @HPS88
-- @joseluisubandaphotography
+- @josselineU05
 - @tpope19
 
 ## Project Timeline
