@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Fun First Play</title>
+    <meta property="og:type" content="website">
+    <meta name="description" content="FunFirstPlay is a responsive web application that brings together sports enthusiasts for local meetups and activities. The platform connects people who want to play casually, learn new sports, and just have fun. Whether you're looking to shoot hoops, learn tennis, or find a soccer match, FunFirstPlay makes it easy to find like-minded players through customizable profiles where users can specify their preferred time slots, sports interests, and skill levels. The platform emphasizes fun and inclusivity, creating an open network where anyone can discover sports partners, and learn new activities.">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Fun First Play",
+            "url": "https://funfirstplay.tech"
+        }
+    </script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/Latest-Events.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body">
+        <div class="container-fluid" id="nav"><a class="navbar-brand" href="#"><button class="btn btn-primary" type="button" style="background: #a6a6a6;border-color: #a6a6a6;"><img src="assets/img/FunFirstPlay_Logo.png" width="71" height="58"></button></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="container1">
+        <!-- Start: Image + Text (Container-fluid) -->
+        <section class="bg-white" style="background: white;">
+            <!-- Start: 1 Row 2 Columns -->
+            <div class="container-fluid" style="background: #ff7b10;">
+                <div class="row">
+                    <!-- Start: Text -->
+                    <div class="col-md-12 col-lg-6">
+                        <h1 class="text-dark" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;color: white;font-size: 35.88px;">Find Players, Learn, and, Join Events Near You!</h1>
+                        <hr>
+                        <p style="padding-left: 15px;padding-right: 15px;color: white;">Looking to learn a new sport, find local players, or join an upcoming event? Whether you're a beginner or an experienced athlete, our community connects you with others who share your passion. <strong>Sign</strong> <strong>up</strong> today to start playing, learning, and competing in sports near you!</p>
+                        <p class="text-center" style="padding-left: 15px;padding-right: 15px;color: white;font-weight: bold;">&nbsp;Create an account now and get in the game!</p>
+                        <div style="text-align:center"><button class="btn btn-primary join-now-btn" type="button">Join Now!</button></div>
+                    </div><!-- End: Text -->
+                    <!-- Start: Photo -->
+                    <div class="col-md-12 col-lg-6" style="padding: 0p;">
+                        <!-- Start: Responsive Video Container -->
+                        <div style="position: relative;overflow: hidden;padding-top: 56.25%;height: 100%;width: 90%;" z-=""><iframe class="d-sm-flex align-items-sm-center" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ScMzIvxBSi4" style="width: 100%;height: 67%;position: absolute;top: 0;left: 0;margin: 74px;text-align: left;"></iframe></div><!-- End: Responsive Video Container -->
+                    </div><!-- End: Photo -->
+                </div>
+            </div><!-- End: 1 Row 2 Columns -->
+        </section><!-- End: Image + Text (Container-fluid) -->
+    </div><!-- Start: Latest Events --><div class="blog-home2 py-5" style="background-color: #a6a6a6;">
+      <div class="container">
+        <!-- Row  -->
+        <div class="row justify-content-center">
+          <!-- Column -->
+          <div class="col-md-8 text-center">
+            <h3 class="my-3">Events Near You!</h3>
+            <h6 class="subtitle font-weight-normal">Grab your gear, bring your game face, and let's hit the court together!</h6>
+          </div>
+          <!-- Column -->
+        </div>
+        <!-- Sports Options Row -->
+        <div class="row mt-4">
+          <div class="col-md-3 sport-option">
+            <button class="btn btn-primary sport-btn" onclick="showEvents('basketball')">Basketball</button>
+          </div>
+          <div class="col-md-3 sport-option">
+            <button class="btn btn-primary sport-btn" onclick="showEvents('soccer')">Soccer</button>
+          </div>
+          <div class="col-md-3 sport-option">
+            <button class="btn btn-primary sport-btn" onclick="showEvents('football')">Football</button>
+          </div>
+        </div>
+        <!-- Events List -->
+        <div id="events-list" class="row mt-4">
+          <!-- Default Events (Basketball) -->
+          <!-- The events will be dynamically added here by JavaScript -->
+        </div>
+      </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      function showEvents(sport) {
+        const eventsList = document.getElementById('events-list');
+        eventsList.innerHTML = ''; // Clear current events
+    
+        let events = [];
+    
+        if (sport === 'basketball') {
+          events = [
+            {
+              date: 'Oct 23',
+              time: '10:00 AM - 2:00 PM',
+              title: 'Basketball Event 1',
+              location: 'Olathe Community Center, KS, US'
+            },
+            // Add more basketball events here
+          ];
+        } else if (sport === 'soccer') {
+          events = [
+            {
+              date: 'Oct 24',
+              time: '3:00 PM - 5:00 PM',
+              title: 'Soccer Event 1',
+              location: 'Central Park, New York, US'
+            },
+            // Add more soccer events here
+          ];
+        } else if (sport === 'football') {
+          events = [
+            {
+              date: 'Oct 25',
+              time: '6:00 PM - 8:00 PM',
+              title: 'Football Event 1',
+              location: 'Stadium, New York, US'
+            },
+            // Add more football events here
+          ];
+        }
+    
+        events.forEach(event => {
+          const eventHTML = `
+            <div class="col-md-12 on-hover mb-4">
+              <div class="card border-0 rounded shadow-sm p-3" style="background-color: #38b6ff;">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center">
+                    <div class="date-time border-right pr-3">
+                      <div class="date-pos bg-info-gradiant p-2 d-inline-block text-center rounded text-white">${event.date}</div>
+                      <p class="mt-2 mb-0">Time: ${event.time}</p>
+                    </div>
+                    <div class="event-details ms-3 pr-3">
+                      <h5 class="font-weight-medium mb-1">${event.title}</h5>
+                      <p class="mb-0">${event.location}</p>
+                    </div>
+                  </div>
+                  <div class="learn-more-container border-left pl-3">
+                    <a href="#" class="text-decoration-none linking learn-more-box">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+          eventsList.innerHTML += eventHTML;
+        });
+      }
+    
+      // Call showEvents with 'basketball' as the default option when the page loads
+      document.addEventListener('DOMContentLoaded', function() {
+        showEvents('basketball');
+      });
+    </script>
+    </body>
+    </html><!-- End: Latest Events -->
+    <footer>
+        <p>Copy Right 2024 FunFirstPlay.Tech</p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
