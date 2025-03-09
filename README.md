@@ -40,9 +40,9 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 
 #### Database Development
 
-- [ ] Create database architecture documentation.
-- [ ] Create database ERD.
-- [ ] Create database schema/tables.
+- [x] Create database architecture documentation.
+- [x] Create database ERD.
+- [x] Create database schema/tables.
 - [ ] Create scripts/functions for database management.
 - [ ] Create database queries.
 
