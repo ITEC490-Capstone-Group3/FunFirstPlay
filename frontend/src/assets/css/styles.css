@@ -16,31 +16,9 @@
   font-size: 15px!important;
 }
 
-@media (min-width: 300px) {
-  par1 {
-    width: 10px;
-  }
-}
-
 .text-dark {
   --bs-text-opacity: 1;
   color: white!important;
-}
-
-#green_block {
-  background-color: red;
-  width: 20em;
-  height: 100px;
-  float: left;
-  z-index: 1;
-}
-
-@media (min-width: 300px) {
-  iframe {
-    padding-right: 120px;
-    padding-bottom: 40px;
-    height: 2em;
-  }
 }
 
 #events_block {
@@ -109,6 +87,25 @@ footer {
   }
 }
 
-h3 {
+.blog-home2 h3 {
+  color: white;
 }
 
+body {
+  background-image: url('assets/img/MiniFields_Green_BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.transparent-green-bg {
+  background-color: rgba(8, 240, 8, 0.6);
+  z-index: 1;
+  position: relative;
+}
+
+@media (min-width: 300px) {
+  .margin-top {
+    margin-top: 20px;
+  }
+}
