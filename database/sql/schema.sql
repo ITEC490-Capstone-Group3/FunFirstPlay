@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS user_sports (
     user_sport_id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(user_id) ON DELETE CASCADE,
     sport_id INT REFERENCES sports(sport_id) ON DELETE CASCADE,
-    skill_level INT REFERENCES skill_levels(skill_level_id) ON DELETE SET NULL
+    skill_level_id INT REFERENCES skill_levels(skill_level_id) ON DELETE SET NULL
 );
 
 CREATE TABLE IF NOT EXISTS availability (
