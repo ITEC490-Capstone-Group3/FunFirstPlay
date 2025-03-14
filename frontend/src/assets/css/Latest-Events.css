@@ -101,3 +101,10 @@
   background-color: green;
 }
 
+@media (min-width: 300px) {
+  iframe {
+    padding-right: 120px;
+    padding-bottom: 40px;
+    height: 2em;
+  }
+}
