@@ -24,10 +24,10 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 
 #### Frontend Development
 
-- [ ] Create page layout.
-- [ ] Create header layout.
-- [ ] Create footer layout.
-- [ ] Create the navigation bar layout.
+- [x] Create page layout.
+- [x] Create header layout.
+- [x] Create footer layout.
+- [x] Create the navigation bar layout.
 - [ ] Create main pages for the app.
 
 #### Backend Development
