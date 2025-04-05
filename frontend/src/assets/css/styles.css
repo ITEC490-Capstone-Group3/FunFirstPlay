@@ -1,3 +1,20 @@
+.container {
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.navbar {
+  border-color: var(--bs-primary);
+  border-bottom-width: 1px;
+  background: linear-gradient(1deg, black, var(--bs-warning) 100%, white 100%), var(--bs-primary);
+  height: 74px;
+}
+
+.btn {
+}
+
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: #ff7b10!important;
