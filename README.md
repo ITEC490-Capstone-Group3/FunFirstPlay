@@ -28,7 +28,7 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 - [x] Create header layout.
 - [x] Create footer layout.
 - [x] Create the navigation bar layout.
-- [ ] Create main pages for the app.
+- [x] Create main pages for the app.
 
 #### Backend Development
 
@@ -69,7 +69,7 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 - [ ] Finalize documentaion.
 - [ ] Final bug fixes \(If needed\).
 
-### Phase 6: Project Presentation - Due May 6, 2025
+### Phase 6: Project Presentation - Due May 8, 2025
 
 - [ ] Capstone presentation.
 
