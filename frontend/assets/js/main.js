@@ -39,5 +39,3 @@ async function deleteSession(id) {
 }
 
 loadSessions();
-
-// Hello!
