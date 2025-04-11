@@ -5,7 +5,7 @@ FILE_TO_COMMIT=$1 # File to commit (passed as an argument)
 TARGET_FOLDER=$2  # Target folder in the repository (passed as an argument)
 COMMIT_MESSAGE="Auto-commit for $FILE_TO_COMMIT: $(date)"
 REPO_URL="https://github.com/ITEC490-Capstone-Group3/FunFirstPlay.git"
-BASE_BRANCH="main" # Base branch for the pull request
+BASE_BRANCH="Akmal-Test" # Base branch for the pull request
 TEMP_BRANCH="update-$(date +%Y%m%d%H%M%S)" # Temporary branch name
 
 # Check if file and target folder are provided
