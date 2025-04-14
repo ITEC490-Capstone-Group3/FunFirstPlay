@@ -3,7 +3,7 @@
 # Variables
 REPO_URL="https://github.com/ITEC490-Capstone-Group3/FunFirstPlay.git"
 BASE_BRANCH="new-base-branch" # Base branch for the pull request
-TEMP_BRANCH="update-$(date +%Y%m%d%H%M%S)" # Temporary branch name
+TEMP_BRANCH="Jossyupdate-$(date +%Y%m%d%H%M%S)" # Temporary branch name
 PR_TITLE="Pull request for all modified files: $(date)"
 PR_BODY="This pull request includes all modified files in the project directory."
 
