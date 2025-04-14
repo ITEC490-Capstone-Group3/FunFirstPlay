@@ -30,4 +30,6 @@ class SessionModel {
     }
 }
 
-export default new SessionModel();s
+export default new SessionModel();
+
+// HI

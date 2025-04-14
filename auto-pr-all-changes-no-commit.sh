@@ -40,9 +40,6 @@ git stash pop
 # Stage all changes (modified, added, or deleted files)
 git add .
 
-# Commit the changes
-git commit -m "Auto-commit for all modified files: $(date)"
-
 # Push the temporary branch to the remote repository
 git push origin "$TEMP_BRANCH"
 
