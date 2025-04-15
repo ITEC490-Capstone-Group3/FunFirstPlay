@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
+    <link rel="stylesheet" href="assets/css/Checkbox-Button-boostrap-checkbox.css">
+    <link rel="stylesheet" href="assets/css/Checkbox-Button.css">
     <link rel="stylesheet" href="assets/css/Latest-Events.css">
+    <link rel="stylesheet" href="assets/css/Multiple-Input-Select-Pills.css">
     <link rel="stylesheet" href="assets/css/multiple-item-carousel-slider.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/dropdown.js"></script>
 </head>
 
 <body style="background: url(&quot;assets/img/LargeFields_Green_BG.png&quot;) center / auto;">
@@ -29,9 +34,18 @@
                     <li class="nav-item"><a class="nav-link" href="calendar.html" style="font-weight: bold;color: var(--bs-light);">Calendar</a></li>
                 </ul><a class="btn btn-primary btn-lg me-2 pe-1 ps-2 pt-0 pb-0" role="button" href="login.html" style="width: 74.6px;background: var(--bs-success);font-size: 16px;font-weight: bold;">Log in</a><a class="btn btn-primary btn-lg pt-0 pb-0 pe-0 ps-0 me-0" role="button" href="signup.html" style="width: 69.6px;font-size: 14px;background: var(--bs-secondary);">Sign up</a>
             </div>
+            <div class="dropdown show" id="userDropdown">
+                <a class="dropdown-toggle" aria-expanded="true" data-bs-toggle="dropdown" href="Account_Set.html" style="color: var(--bs-white);">
+                    <i class="far fa-user ps-0 me-2 mt-1 mb-1 ms-3" style="width: 25px;font-size: 32px;color: var(--bs-white);"></i>
+                </a>
+                <div class="dropdown-menu" data-bs-popper="none">
+                    <a class="dropdown-item" href="Account_Set.html">Account Settings</a>
+                    <a class="dropdown-item" href="index.html">Log out</a>
+                </div>
+            </div>
         </div>
     </nav>
-    <section class="text-white py-4 py-xl-5" data-bss-scroll-zoom="true" data-bss-scroll-zoom-speed="1" style="background: url(&quot;assets/img/photo-1484482340112-e1e2682b4856-1.jpg&quot;);background-size: cover;">
+    <section class="text-white py-4 py-xl-5" data-bss-scroll-zoom="true" data-bss-scroll-zoom-speed="1" style="background: url(&quot;photo-1484482340112-e1e2682b4856-1.jpg&quot;);background-size: cover;">
         <div class="container">
             <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5" style="height: 500px;">
                 <div class="row" style="width: 1000px;">
@@ -128,6 +142,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/multiple-item-carousel-slider-multiple-item-carousel-slider-bootstrap.min.js"></script>
     <script src="assets/js/multiple-item-carousel-slider-multiple-item-carousel-slider-slider.js"></script>
+    <script src="https://geodata.solutions/includes/countrystate.js"></script>
 </body>
 
 </html>
