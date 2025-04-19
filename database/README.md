@@ -1,22 +1,20 @@
-# Database Documentation
+# FunFirstPlay Database Documentation
 
 ## Database Software
 
-This project uses a [PostgreSQL](https://www.postgresql.org/) database.
+This project uses a PostgreSQL database hosted on Digital Ocean's managed database service.
 
-### Dev Environment Setup
+## Database Configuration
 
-- [Linux (.deb based) Instructions](setup_instructions/linux_setup.md).
-- [macOS Instructions](setup_instructions/macos_setup.md).
-- [Windows Instructions](setup_instructions/windows_setup.md).
+- Host: <your_database_host>.m.db.ondigitalocean.com
+- Port: 25060
+- User: doadmin
+- Database: defaultdb
+- SSL Mode: require
 
-### Database Schema
+## Database Schema
 
 The database schema creation sql: [schema.sql](sql/schema.sql).
-
-### SQL Queries
-
-Queries .sql files are listed under the [sql folder](sql).
 
 ## Entity Relationship Diagram (ERD)
 
@@ -44,11 +42,5 @@ Queries .sql files are listed under the [sql folder](sql).
 - Time Management:
   - AVAILABILITY stores when users are free to play.
   - The recurrence_rule field enables patterns like "every Tuesday at 7pm".
-
-NOTE: 
-Open [ERD.md](erd/ERD.md) to view the ERD code. The diagram is created using Mermaid Markdown.
-
-- Mermaid code can be viewed as a diagram online at [Mermaid Live](https://mermaid.live).
-- Mermaid code can be viewed as a diagram in VSCode using the extension [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid).
 
 ![ERD](erd/erd.svg)

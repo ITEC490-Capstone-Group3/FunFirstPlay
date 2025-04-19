@@ -1,11 +1,12 @@
-import express from 'express';
+const express = require('express');
+const sessionController = require('../controllers/sessionController');
 
 const router = express.Router();
 
-export default (sessionController) => {
-    router.post('/', sessionController.createSession.bind(sessionController));
-    router.get('/', sessionController.getAllSessions.bind(sessionController));
-    router.put('/:id', sessionController.updateSession.bind(sessionController));
-    router.delete('/:id', sessionController.deleteSession.bind(sessionController));
-    return router;
-};
+// Session routes
+router.post('/', sessionController.createSession);
+router.get('/', sessionController.getAllSessions);
+router.put('/:id', sessionController.updateSession);
+router.delete('/:id', sessionController.deleteSession);
+
+module.exports = router;

@@ -32,34 +32,32 @@ FunFirstPlay is a responsive web application that brings together sports enthusi
 
 #### Backend Development
 
-- [ ] Create app architecture.
-- [ ] Create player matching function.
-- [ ] Create app services
-- [ ] Create API/queries for writing to the database.
-- [ ] Create API/queries for retrieving from the database.
+- [x] Create app architecture.
+- [x] Create player matching function.
+- [x] Create app services
+- [x] Create API/queries for writing to the database.
+- [x] Create API/queries for retrieving from the database.
 
 #### Database Development
 
 - [x] Create database architecture documentation.
 - [x] Create database ERD.
 - [x] Create database schema/tables.
-- [ ] Create scripts/functions for database management.
-- [ ] Create database queries.
 
 ### Phase 3: Alpha Deployment - Due April 20, 2025
 
-- [ ] Setup domain.
-- [ ] Setup DNS.
-- [ ] Setup and configure webserver.
-- [ ] Setup SSL for https.
+- [x] Setup domain.
+- [x] Setup DNS.
+- [x] Setup and configure webserver.
+- [x] Setup SSL for https.
 
 ### Phase 4: Beta Deployment and Testing - Due April 27, 2025
 
-- [ ] Setup backend hosting.
-- [ ] Setup backend software.
-- [ ] Setup database hosting.
-- [ ] Setup database software.
-- [ ] Create and setup Production database on the server.
+- [x] Setup backend hosting.
+- [x] Setup backend software.
+- [x] Setup database hosting.
+- [x] Setup database software.
+- [x] Create and setup Production database on the server.
 - [ ] Test Deployment.
 - [ ] Recruit beta testers.
 - [ ] Work on fixing bug reports from beta testers.

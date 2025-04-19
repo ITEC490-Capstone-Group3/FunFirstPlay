@@ -1,1 +1,0 @@
--- This file will contain the queries that will be needed to interact with the database
