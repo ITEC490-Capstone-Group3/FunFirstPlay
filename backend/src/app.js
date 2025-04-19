@@ -49,7 +49,6 @@ app.use(helmet({
 }));
 
 // CORS configuration - Since frontend and API are on the same domain, 
-// we allow both local development and production domain
 const corsOptions = {
   origin: process.env.CORS_ORIGIN ? 
     process.env.CORS_ORIGIN.split(',') : 

@@ -43,4 +43,7 @@ The database schema creation sql: [schema.sql](sql/schema.sql).
   - AVAILABILITY stores when users are free to play.
   - The recurrence_rule field enables patterns like "every Tuesday at 7pm".
 
+- Mermaid code can be viewed as a diagram online at [Mermaid Live](https://mermaid.live).
+- Mermaid code can be viewed as a diagram in VSCode using the extension [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid).
+
 ![ERD](erd/erd.svg)
