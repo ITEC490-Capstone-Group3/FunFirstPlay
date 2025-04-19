@@ -6,10 +6,13 @@ yarn-error.log
 
 # Environment variables and secrets
 .env
+.env.ffp
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+*.env
+*.env.ffp
 
 # Build directories
 dist/
