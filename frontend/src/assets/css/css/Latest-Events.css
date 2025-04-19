@@ -1,0 +1,111 @@
+/* Spring 2025 Semester (KU)/ITEC490 - Capstone/assets/css/Latest-Events.css */
+
+.blog-home2 a.link {
+  color: #3e4555;
+}
+
+.blog-home2 a.link:hover {
+  color: #316ce8;
+}
+
+.blog-home2 .on-hover {
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.blog-home2 .on-hover:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.blog-home2 .date-pos {
+  right: 10px;
+  top: 10px;
+}
+
+.blog-home2 .date-pos span {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.blog-home2 .bg-info-gradiant {
+  background: #188ef4;
+  background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+  background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+  background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+  background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.date-time {
+  border-right: 2px solid #ddd;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-details {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70%;
+}
+
+.learn-more-container {
+  border-left: 2px solid #ddd;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.learn-more-box {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: #38b6ff;
+}
+
+.card .d-flex {
+  padding: 10px 0;
+  align-items: stretch;
+}
+
+.card .d-flex > div {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sport-option {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.sport-btn {
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.sport-btn:hover {
+  background-color: green;
+}
+
+@media (min-width: 300px) {
+  iframe {
+    padding-right: 120px;
+    padding-bottom: 40px;
+    height: 2em;
+  }
+}
+
