@@ -1,0 +1,33 @@
+[DEFAULT]
+# Ban hosts for one hour:
+bantime = 3600
+
+# Override /etc/fail2ban/jail.d/00-firewalld.conf
+banaction = ufw
+
+# Retry interval for firewall actions
+banaction_allports = ufw
+
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 5
+findtime = 600
+
+[nginx-http-auth]
+enabled = true
+filter = nginx-http-auth
+port = http,https
+logpath = /var/log/nginx/error.log
+maxretry = 5
+findtime = 600
+
+[nginx-botsearch]
+enabled = true
+filter = nginx-botsearch
+port = http,https
+logpath = /var/log/nginx/access.log
+maxretry = 3
+findtime = 600

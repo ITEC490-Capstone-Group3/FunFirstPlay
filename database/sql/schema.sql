@@ -91,6 +91,13 @@ CREATE TABLE IF NOT EXISTS notifications (
     channel VARCHAR(20) DEFAULT 'email'
 );
 
+CREATE TABLE IF NOT EXISTS sessions (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 -- Create indexes
 CREATE INDEX IF NOT EXISTS idx_user_sports_user_id ON user_sports(user_id);
 CREATE INDEX IF NOT EXISTS idx_user_sports_sport_id ON user_sports(sport_id);
