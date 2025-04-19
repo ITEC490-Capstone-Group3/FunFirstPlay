@@ -13,6 +13,7 @@ yarn-error.log
 .env.production.local
 */.env
 */.env.ffp
+*/*/.env.ffp
 
 # Build directories
 dist/
