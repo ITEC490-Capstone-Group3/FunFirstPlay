@@ -1,0 +1,129 @@
+.container {
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.navbar {
+  border-color: var(--bs-primary);
+  border-bottom-width: 1px;
+  background: linear-gradient(1deg, black, var(--bs-warning) 100%, white 100%), var(--bs-primary);
+  height: 74px;
+}
+
+.btn {
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #ff7b10!important;
+}
+
+.navbar-custom {
+  background-color: #a6a6a6;
+}
+
+.bg-body {
+  --bs-bg-opacity: 1;
+  background-color: #a6a6a6!important;
+}
+
+.fs-4 {
+  font-size: 15px!important;
+}
+
+.text-dark {
+  --bs-text-opacity: 1;
+  color: white!important;
+}
+
+#events_block {
+  background-color: #a6a6a6;
+  text-align: center;
+  padding: 1em;
+  color: white;
+  border: 4px solid black;
+  font-size: 20px;
+}
+
+#events {
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+
+#events {
+  border: 1px solid black;
+  width: 80%;
+}
+
+footer {
+  background-color: blue;
+  text-align: center;
+  padding: 2px 1px;
+  color: white;
+}
+
+.join-now-btn:hover {
+  background-color: green;
+}
+
+.join-now-btn {
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0d6efd;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: green;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+@media (min-width: 768px) {
+  iframe {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  iframe {
+    padding-left: 20px;
+  }
+}
+
+.blog-home2 h3 {
+  color: white;
+}
+
+body {
+  background-image: url('assets/img/MiniFields_Green_BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.transparent-green-bg {
+  background-color: rgba(8, 240, 8, 0.6);
+  z-index: 1;
+  position: relative;
+}
+
+@media (min-width: 300px) {
+  .margin-top {
+    margin-top: 20px;
+  }
+}
+
