@@ -1,48 +1,53 @@
-    /* Style for the links in boxes (collapsed view) */
-    .navbar-nav .nav-link.box-link {
-        display: inline-block;
-        padding: 10px 20px;
-        margin: 5px;
-        border: 2px solid var(--bs-light);
-        border-radius: 8px;
-        color: var(--bs-light);
-        font-weight: bold;
-        text-align: center;
-        transition: all 0.3s ease;
-    }
-    
-    /* Hover effect for the links in boxes */
-    .navbar-nav .nav-link.box-link:hover {
-        background-color: var(--bs-primary);
-        color: white;
-        transform: scale(1.05);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    }
-    
-    /* Ensure the links appear beneath the hamburger menu when collapsed */
-    .navbar-collapse {
-        text-align: right;    
-    }
+/* Style for the links in boxes (collapsed view) */
 
-   .dropdown-menu {
-    transition: opacity 0.3s ease; /* Smooth fade-out effect */
-    opacity: 0; /* Initially hidden */
-    display: none; /* Initially not displayed */
+.navbar-nav .nav-link.box-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid var(--bs-light);
+  border-radius: 8px;
+  color: var(--bs-light);
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for the links in boxes */
+
+.navbar-nav .nav-link.box-link:hover {
+  background-color: var(--bs-primary);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure the links appear beneath the hamburger menu when collapsed */
+
+.navbar-collapse {
+  text-align: right;
+}
+
+.dropdown-menu {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  display: none;
 }
 
 .dropdown-menu.show {
-    opacity: 1; /* Fully visible when shown */
-    display: block; /* Display the dropdown */
+  opacity: 1;
+  display: block;
 }
 
 /* Hover effect for dropdown items */
+
 .dropdown-menu .dropdown-item {
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  transition: all 0.3s ease;
 }
 
 .dropdown-menu .dropdown-item:hover {
-    background-color: var(--bs-primary) !important; /* Change background color on hover */
-    color: white !important; /* Change text color on hover */
-    transform: scale(1.05); /* Slightly enlarge the item */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  background-color: var(--bs-primary) !important;
+  color: white !important;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
